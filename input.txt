@@ -1,0 +1,67 @@
+short int main()
+{
+	short int a = 10;
+	float b = 3;
+	b = a/b;
+	a = a/3;
+	while (a > 10)
+	{
+		while (a < 10)
+		{
+			short int c = 100;
+			a = a * 2;
+		}
+	}
+	return 0;
+}
+
+
+
+/*
+short int globalVar = -1;
+
+short int func1(short int max, float i)
+{
+	globalVar = globalVar + 1;
+	i = i - globalVar;
+	while(i > max)
+	{
+		i = func1(max,i);
+	}
+	return i;
+	float varAfterReturn;
+	short int varAfterReturn2;
+}
+
+short int factresult;
+float factorial(short int param)
+{
+	globalVar = globalVar + 1;
+	while (param == 1)
+	{
+		return 1;
+	}
+	factresult = param * factorial(param - 1);
+	return factresult;
+
+	short int k = factorial(8);
+}
+
+short int main()
+{
+	short int k = 0;
+	while(k < 10)
+	{
+		k = k + 2;
+		while(globalVar < 4)
+		{
+			{{short int k = 2; {{globalVar = globalVar + k;}}}}
+		}
+	}
+	short int f = func1(10, 5);
+
+	float globalVar = 'a' + 'b';	
+	f = func1(factorial(4), factorial(5));
+	{return f;}
+}
+*/
